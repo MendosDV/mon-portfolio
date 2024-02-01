@@ -1,15 +1,17 @@
 <template>
   <NavbarApp />
   <BannerApp />
+  <AboutApp />
 </template>
 
 <script>
 import NavbarApp from './components/NavbarApp.vue'
 import BannerApp from './components/Home/BannerApp.vue'
+import AboutApp from './components/AboutApp.vue'
 
 export default {
   name: 'App',
-  components: { NavbarApp, BannerApp },
+  components: { NavbarApp, BannerApp, AboutApp },
 }
 </script>
 

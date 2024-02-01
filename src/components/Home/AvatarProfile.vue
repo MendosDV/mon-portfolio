@@ -24,12 +24,6 @@ export default {
     animation: morph 8s ease-in-out infinite, borderMovement 8s ease-in-out infinite;
   }
 
-  .myself-img:hover {
-    -webkit-filter: blur(4px); /* Chrome, Safari, Opera */
-    filter: blur(4px);
-    cursor: pointer;
-  }
-
   @keyframes borderMovement {
     0% {
       border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
