@@ -1,7 +1,7 @@
 <template>
-  <div class="banner mb-5">
+  <div class="banner mb-5 mt-5">
     <div class="container">
-      <div class="p-3 px-md-0 py-md-5 m-auto d-flex flex-column flex-sm-row gap-4">
+      <div class="p-3 px-md-0 py-md-5 d-flex flex-column flex-sm-row gap-4">
         <AvatarProfile/>
         <div class="m-auto order-sm-1 col-md-6">
           <h1 class="fw-bolder green-color">

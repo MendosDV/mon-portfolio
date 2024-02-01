@@ -1,7 +1,7 @@
 <template>
   <div class="blue-background-color py-5">
     <div class="container py-4">
-      <div class="container">
+      <div class="p-3 px-md-0">
         <div class="mb-5">
           <h3 class="text-white fw-bolder">Send me a message</h3>
           <p class="green-color w-100 w-md-50">Got a question, proposal, or just want to say hello? Interested in working together? Feel free to reach out!</p>
