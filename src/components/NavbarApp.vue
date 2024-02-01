@@ -20,10 +20,10 @@
               <a class="nav-link mx-lg-2" href="#about-section">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mx-lg-2" href="#">Projects</a>
+              <a class="nav-link mx-lg-2" href="#projects-section">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mx-lg-2" href="#">Contact</a>
+              <a class="nav-link mx-lg-2" href="#contact-section">Contact</a>
             </li>
           </ul>
         </div>

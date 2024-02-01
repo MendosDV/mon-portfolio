@@ -1,10 +1,9 @@
 <template>
   <NavbarApp />
   <BannerApp />
-  <div></div>
-  <AboutApp />
-  <ProjectApp />
-  <ContactApp />
+  <AboutApp ref="aboutSection" id="about-section" />
+  <ProjectApp ref="projectsSection" id="projects-section" />
+  <ContactApp ref="contactSection" id="contact-section" />
   <FooterApp />
 </template>
 
@@ -19,6 +18,10 @@ import FooterApp from './components/FooterApp.vue'
 
 export default {
   name: 'App',
+  // mounted() {
+  //   this.$refs.aboutSection.$el.scrollIntoView();
+  //   window.scrollBy(30, -80);
+  // },
   components: { NavbarApp, BannerApp, AboutApp, ProjectApp, ContactApp, FooterApp },
 }
 </script>

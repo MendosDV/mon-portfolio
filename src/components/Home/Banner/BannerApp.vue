@@ -1,5 +1,5 @@
 <template>
-  <div class="banner mb-5 mt-5">
+  <div class="banner mb-5 mt-5 pt-md-4">
     <div class="container">
       <div class="p-3 px-md-0 py-md-5 d-flex flex-column flex-sm-row gap-4">
         <AvatarProfile/>
