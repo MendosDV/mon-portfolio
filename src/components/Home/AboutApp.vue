@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex justify-content-center align-items-center mb-5">
+  <div class="d-flex justify-content-center align-items-center mb-5 py-5">
     <div class="w-75 d-flex justify-content-center gap-5 row align-items-center ">
       <div class="col-md-5">
         <img src="https://a.cdn-hotels.com/gdcs/production175/d204/32b38e20-cb15-11e8-a1a9-0242ac110002.jpg" alt="Miki" class="rounded img-fluid">
@@ -58,5 +58,9 @@ export default {
       font-size: 0.8rem;
       width: 60%;
     }
+  }
+
+  img {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   }
 </style>

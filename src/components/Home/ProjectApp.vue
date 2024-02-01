@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white py-5 mb-5">
+  <div class="bg-white py-5">
     <div class="container p-5 d-flex flex-column justify-content-center align-items-center">
       <div class="m-auto effect-border">
         <h3 class="text-center fw-bolder p-5">Just wait, new projects are coming soon ... 😉</h3>
