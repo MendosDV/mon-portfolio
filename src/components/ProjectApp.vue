@@ -3,6 +3,10 @@
     <div class="container p-5 d-flex flex-column justify-content-center align-items-center">
       <div class="m-auto effect-border">
         <h3 class="text-center fw-bolder p-5">Just wait, new projects are coming soon ... 😉</h3>
+        <span class="top"></span>
+        <span class="right"></span>
+        <span class="bottom"></span>
+        <span class="left"></span>
       </div>
     </div>
   </div>
@@ -18,7 +22,7 @@ export default {
   .effect-border {
     --color: #446DF6;
     --border: 6px;
-    --offset: 20px;
+    --offset: 30px;
     --gap: 5px;
 
     --_c: var(--color) var(--border), #0000 0 calc(100% - var(--border)),var(--color) 0;
