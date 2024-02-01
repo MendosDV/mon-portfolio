@@ -1,13 +1,14 @@
 <template>
-  <nav class="navbar navbar-expand-lg fixed-top bg-white nav-shadow rounded p-3">
+  <!-- Régler le problème de fixed-top -->
+  <nav class="navbar navbar-expand-lg  bg-white nav-shadow py-3">
     <div class="container">
-      <h3 class="navbar-brand fw-bolder m-0 fs-3">Miki.dev</h3>
+      <h3 class="logo navbar-brand fw-bolder m-0 fs-3">Miki.dev</h3>
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
         <div class="offcanvas-header">
-          <h5 class="offcanvas-title border-bottom pb-2 pe-3" id="offcanvasNavbarLabel">Miki.dev</h5>
+          <h5 class="offcanvas-title pb-2 pe-3" id="offcanvasNavbarLabel">Miki.dev</h5>
           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
@@ -38,14 +39,22 @@ export default {
 </script>
 
 <style>
-  h3 {
-    letter-spacing: 4px;
+  .logo {
+    letter-spacing: 2px;
     transition: all 0.3s;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
   }
 
-  h3:hover {
-    color: green !important;
+  .logo:hover {
+    box-shadow: inset 300px 0 0 0 #446DF6;
+    color: white !important;
     cursor: pointer;
+  }
+
+  .offcanvas-title {
+    border-bottom: 1px solid #CCF281;
   }
 
   .nav-shadow {
@@ -81,7 +90,7 @@ export default {
       transform: translateX(-50%);
       width: 0%;
       height: 2px;
-      background-color: green;
+      background-color: #CCF281;
       visibility: hidden;
       transition: 0.3s ease-in-out;
     }

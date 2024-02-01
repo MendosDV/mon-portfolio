@@ -1,18 +1,15 @@
 <template>
   <NavbarApp />
-  <div class="container">
-    <h1 class="fw-bold text-center mt-4">Hello World</h1>
-  </div>
+  <BannerApp />
 </template>
 
 <script>
 import NavbarApp from './components/NavbarApp.vue'
+import BannerApp from './components/Home/BannerApp.vue'
 
 export default {
   name: 'App',
-  components: {
-    NavbarApp,
-  }
+  components: { NavbarApp, BannerApp },
 }
 </script>
 
