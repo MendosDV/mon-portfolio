@@ -1,9 +1,11 @@
 <template>
   <NavbarApp />
   <BannerApp />
+  <div></div>
   <AboutApp />
   <ProjectApp />
   <ContactApp />
+  <FooterApp />
 </template>
 
 <script>
@@ -12,10 +14,12 @@ import BannerApp from './components/Home/Banner/BannerApp.vue'
 import AboutApp from './components/Home/AboutApp.vue'
 import ProjectApp from './components/Home/ProjectApp.vue'
 import ContactApp from './components/Home/ContactApp.vue'
+import FooterApp from './components/FooterApp.vue'
+
 
 export default {
   name: 'App',
-  components: { NavbarApp, BannerApp, AboutApp, ProjectApp, ContactApp },
+  components: { NavbarApp, BannerApp, AboutApp, ProjectApp, ContactApp, FooterApp },
 }
 </script>
 

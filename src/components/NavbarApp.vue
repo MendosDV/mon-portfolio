@@ -1,6 +1,6 @@
 <template>
   <!-- Régler le problème de fixed-top -->
-  <nav class="navbar navbar-expand-lg  bg-white nav-shadow py-3">
+  <nav class="navbar navbar-expand-lg fixed-top bg-white nav-shadow py-3">
     <div class="container">
       <h3 class="logo navbar-brand fw-bolder m-0 fs-3">Miki.dev</h3>
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
@@ -17,7 +17,7 @@
               <a class="nav-link active mx-lg-2" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mx-lg-2" href="#">About</a>
+              <a class="nav-link mx-lg-2" href="#about-section">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link mx-lg-2" href="#">Projects</a>

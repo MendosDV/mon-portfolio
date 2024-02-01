@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex flex-column flex-md-row gap-4 justify-content-start align-items-center w-50 w-md-100 mb-3 mb-md-0">
+  <div class="d-flex flex-column flex-md-row gap-4 justify-content-start align-items-center w-50 w-md-100 mb-4 mb-md-0">
     <p class="fw-bold text-white border-end border-2 pe-4 mt-3">Tech stack</p>
     <div v-for="type in type" :key="type" class="d-flex gap-2 me-2 stack-category">
       <div v-for="stack in stackByType(type)" :key="stack.type">
