@@ -1,4 +1,5 @@
 <template>
+  <!-- bon -->
   <div>
     <section id="banner">
       <BannerApp/>
