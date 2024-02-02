@@ -8,21 +8,21 @@
       <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
         <div class="offcanvas-header">
           <h5 class="offcanvas-title pb-2 pe-3" id="offcanvasNavbarLabel">Miki.dev</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          <button type="button" class="btn-close" @click="toggleOffcanvas" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
           <ul class="navbar-nav justify-content-end flex-grow-1 fw-bolder">
             <li class="nav-item">
-              <a class="nav-link active mx-lg-2" aria-current="page" href="#banner">Home</a>
+              <a class="nav-link active mx-lg-2" @click="toggleOffcanvas" aria-current="page" href="#banner">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mx-lg-2" href="#about">About</a>
+              <a class="nav-link mx-lg-2" @click="toggleOffcanvas" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mx-lg-2" href="#projects">Projects</a>
+              <a class="nav-link mx-lg-2" @click="toggleOffcanvas" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mx-lg-2" href="#contact">Contact</a>
+              <a class="nav-link mx-lg-2"  @click="toggleOffcanvas" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -33,7 +33,12 @@
 
 <script>
 export default {
-
+  methods: {
+    toggleOffcanvas() {
+      const offcanvas = document.getElementById('offcanvasNavbar');
+      offcanvas.classList.toggle('show');
+    }
+  }
 }
 </script>
 

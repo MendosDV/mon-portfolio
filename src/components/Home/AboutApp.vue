@@ -8,13 +8,16 @@
         <h5 class="blue-color bolder">What about me ?</h5>
         <h4 class="mb-4">Located in Montréal and ready to work! 👨‍💻</h4>
         <p class="small-text">Currently, I undertake freelance missions and work on personal projects using technologies I enjoy, such as Ruby on Rails, Node.js, React.js, and Vue.js. I am also actively seeking my first professional experience in a company, so don't hesitate to reach out!</p>
-        <a href="/website-cv.pdf" download="Mickael RISS CV" class="btn blue-background-color d-flex gap-3 align-items-center text-white">
-          Download CV
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+        <a href="/website-cv.pdf" download="Mickael RISS CV" class="btn blue-background-color text-white">
+          <span class="me-2">
+            CV
+          </span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download fw-bolder">
             <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"/>
             <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z"/>
           </svg>
         </a>
+
       </div>
     </div>
   </div>
@@ -45,18 +48,30 @@ export default {
     border: none;
   }
 
-  @media (max-width: 375px) {
+  @media (min-width: 300px) {
     .btn {
       font-size: 0.8rem;
-
-      width: 75%;
+      width: 35%;
     }
   }
 
-  @media (max-width: 768px) {
+  @media (min-width: 768px) {
     .btn {
       font-size: 0.8rem;
-      width: 60%;
+      width: 40%;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .btn {
+      width: 30%;
+    }
+  }
+
+
+  @media (min-width: 2000px) {
+    .btn {
+      width: 10%;
     }
   }
 
