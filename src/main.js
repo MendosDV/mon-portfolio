@@ -6,9 +6,25 @@ import "./assets/main.css"
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faUserSecret, faBars, faMap } from '@fortawesome/free-solid-svg-icons'
+import { createRouter, createWebHistory } from 'vue-router'
+import HomeView from './views/Home.vue'
+
+const routes = [
+  {
+    path: '/',
+    name: 'Home',
+    component: HomeView
+  }
+]
+
+const router = createRouter({
+  history: createWebHistory(),
+  routes: routes
+})
 
 library.add(faUserSecret, faBars, faMap)
 
 createApp(App)
+.use(router)
 .component('font-awesome-icon', FontAwesomeIcon)
 .mount('#app')

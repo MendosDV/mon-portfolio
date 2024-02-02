@@ -1,8 +1,7 @@
 <template>
-  <!-- Régler le problème de fixed-top -->
   <nav class="navbar navbar-expand-lg fixed-top bg-white nav-shadow py-3">
     <div class="container">
-      <h3 class="logo navbar-brand fw-bolder m-0 fs-3">Miki.dev</h3>
+      <h3 class="logo navbar-brand fw-bolder m-0 fs-3">Mikiki.dev</h3>
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -14,16 +13,16 @@
         <div class="offcanvas-body">
           <ul class="navbar-nav justify-content-end flex-grow-1 fw-bolder">
             <li class="nav-item">
-              <a class="nav-link active mx-lg-2" aria-current="page" href="#">Home</a>
+              <a class="nav-link active mx-lg-2" aria-current="page" href="#banner">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mx-lg-2" href="#about-section">About</a>
+              <a class="nav-link mx-lg-2" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mx-lg-2" href="#projects-section">Projects</a>
+              <a class="nav-link mx-lg-2" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mx-lg-2" href="#contact-section">Contact</a>
+              <a class="nav-link mx-lg-2" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
