@@ -1,5 +1,5 @@
 <template>
-  <div class="col-xs-4 col-sm-5 col-md-5 col-lg-5 col-xl-5 m-auto order-sm-2">
+  <div class="col-xs-4 col-sm-5 col-md-5 col-lg-5 col-xl-5 m-auto order-sm-2 pt-3 pt-md-0">
     <img src="/portrait.jpg" alt="mickael-photo" class="img-fluid myself-img">
   </div>
 </template>
