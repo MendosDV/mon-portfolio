@@ -5,7 +5,7 @@ import "bootstrap"
 import "./assets/main.css"
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faUserSecret, faBars, faMap } from '@fortawesome/free-solid-svg-icons'
+import { faUserSecret, faBars, faMap, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from './views/Home.vue'
 
@@ -22,7 +22,7 @@ const router = createRouter({
   routes: routes
 })
 
-library.add(faUserSecret, faBars, faMap)
+library.add(faUserSecret, faBars, faMap, faEnvelope)
 
 createApp(App)
 .use(router)

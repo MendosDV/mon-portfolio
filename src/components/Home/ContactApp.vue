@@ -18,7 +18,7 @@
           </div>
           <div class="d-flex align-items-center gap-2">
             <div>
-              <font-awesome-icon :icon="['fas', 'map']" style="color: #ccf281;" class="border-icon rounded-circle p-3" />
+              <font-awesome-icon :icon="['fas', 'envelope']" style="color: #ccf281;" class="border-icon rounded-circle p-3" />
             </div>
             <div>
               <p class="green-color fw-bolder ms-2 m-auto title-icon">Mail</p>
