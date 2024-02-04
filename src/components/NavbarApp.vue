@@ -2,13 +2,13 @@
   <nav class="navbar navbar-expand-lg fixed-top bg-white nav-shadow py-3">
     <div class="container">
       <h3 class="logo navbar-brand fw-bolder m-0 fs-3">Miki.dev</h3>
-      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+      <button class="navbar-toggler" type="button" aria-label="Toggle navigation"  data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
         <div class="offcanvas-header">
           <h5 class="offcanvas-title pb-2 pe-3" id="offcanvasNavbarLabel">Miki.dev</h5>
-          <button type="button" class="btn-close" @click="toggleOffcanvas" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          <button type="button" class="btn-close" @click="toggleOffcanvas" data-bs-dismiss="offcanvas" aria-label="Close" ></button>
         </div>
         <div class="offcanvas-body">
           <ul class="navbar-nav justify-content-end flex-grow-1 fw-bolder">
