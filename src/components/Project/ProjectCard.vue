@@ -1,7 +1,8 @@
 <template>
   <div class="d-md-flex gap-5 mb-md-5 mx-md-5 align-items-center align-items-stretch">
-    <div class="col-md-6 mb-4 mb-md-0 d-flex align-items-center justify-content-center">
-      <ModalImage :project="project" />
+    <div class="col-md-6 col-lg-5 mb-4 mb-md-0 d-flex align-items-center justify-content-center">
+      <ModalImage :image="project.image" :imageId="project.id" />
+      <img :src="project.image" :alt="project.name" class="img-fluid rounded" data-bs-toggle="modal" :href="'#exampleModalToggle' + project.id">
     </div>
     <div class="px-md-4 col-md-6 d-flex flex-column justify-content-between">
       <div class="">
@@ -42,4 +43,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+  img {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+
 </style>
