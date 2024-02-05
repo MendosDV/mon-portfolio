@@ -8,6 +8,7 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faUserSecret, faBars, faMap, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from './views/Home.vue'
+import 'bs5-lightbox';
 
 const routes = [
   {

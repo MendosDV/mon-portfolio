@@ -18,7 +18,7 @@
 <script>
 import BannerApp from '@/components/Home/Banner/BannerApp.vue'
 import AboutApp from '@/components/Home/AboutApp.vue'
-import ProjectApp from '@/components/Home/ProjectApp.vue'
+import ProjectApp from '@/components/Project/ProjectApp.vue'
 import ContactApp from '@/components/Home/ContactApp.vue'
 
 export default {
