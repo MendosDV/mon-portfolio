@@ -13,13 +13,13 @@
         <div class="offcanvas-body">
           <ul class="navbar-nav justify-content-end flex-grow-1 fw-bolder">
             <li class="nav-item">
-              <a class="nav-link active mx-lg-2" @click="toggleOffcanvas" aria-current="page" href="#banner">Home</a>
+              <a class="nav-link active mx-lg-2" @click="toggleOffcanvas" aria-current="page" href="#banner">Accueil</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mx-lg-2" @click="toggleOffcanvas" href="#about">About</a>
+              <a class="nav-link mx-lg-2" @click="toggleOffcanvas" href="#about">À propos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mx-lg-2" @click="toggleOffcanvas" href="#projects">Projects</a>
+              <a class="nav-link mx-lg-2" @click="toggleOffcanvas" href="#projects">Projets</a>
             </li>
             <li class="nav-item">
               <a class="nav-link mx-lg-2"  @click="toggleOffcanvas" href="#contact">Contact</a>

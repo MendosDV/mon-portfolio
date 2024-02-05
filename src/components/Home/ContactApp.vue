@@ -3,8 +3,8 @@
     <div class="container py-4">
       <div class="p-3 px-md-0">
         <div class="mb-5">
-          <h3 class="text-white fw-bolder">Send me a message</h3>
-          <p class="green-color w-100 w-md-50">Got a question, proposal, or just want to say hello? Interested in working together? Feel free to reach out!</p>
+          <h3 class="text-white fw-bolder">Envoyez-moi un message</h3>
+          <p class="green-color w-100 w-md-50">Vous avez une question, une proposition ou simplement envie de dire bonjour ? Intéressé par une collaboration ? N'hésitez pas à me contacter !</p>
         </div>
         <div class="d-md-flex align-items-center gap-5">
           <div class="d-flex align-items-center gap-2 me-3 mb-4 mb-md-0">
@@ -12,7 +12,7 @@
               <font-awesome-icon :icon="['fas', 'map']" style="color: #ccf281;" class="border-icon rounded-circle p-3" />
             </div>
             <div>
-              <p class="green-color fw-bolder ms-2 m-auto title-icon">Located in</p>
+              <p class="green-color fw-bolder ms-2 m-auto title-icon">Situé à</p>
               <p class="text-white ms-2 m-auto ">Montréal, QC</p>
             </div>
           </div>

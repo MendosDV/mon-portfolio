@@ -5,9 +5,9 @@
         <img src="https://a.cdn-hotels.com/gdcs/production175/d204/32b38e20-cb15-11e8-a1a9-0242ac110002.jpg" alt="Miki" class="rounded img-fluid">
       </div>
       <div class="col-md-5">
-        <h5 class="blue-color bolder">What about me ?</h5>
-        <h4 class="mb-4">Located in Montréal and ready to work! 👨‍💻</h4>
-        <p class="small-text">Currently, I undertake freelance missions and work on personal projects using technologies I enjoy, such as Ruby on Rails, Node.js, React.js, and Vue.js. I am also actively seeking my first professional experience in a company, so don't hesitate to reach out!</p>
+        <h5 class="blue-color bolder">Qui suis-je ?</h5>
+        <h4 class="mb-4">Basé à Montréal et disponible pour travailler ensemble! 👨‍💻</h4>
+        <p class="small-text">Actuellement, je réalise des missions en freelance et travaille sur des projets personnels en utilisant des technologies qui me passionnent, telles que Ruby on Rails, Node.js, React.js et Vue.js. Je suis disponible, alors n'hésitez pas à me contacter !</p>
         <a href="/website-cv.pdf" download="Mickael RISS CV" class="btn blue-background-color text-white">
           <span class="me-2">
             CV

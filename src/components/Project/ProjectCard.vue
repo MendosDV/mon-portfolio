@@ -5,15 +5,15 @@
       <img :src="project.image" :alt="project.name" class="img-fluid rounded" data-bs-toggle="modal" :href="'#exampleModalToggle' + project.id">
     </div>
     <div class="px-md-4 col-md-6 d-flex flex-column justify-content-between">
-      <div class="">
-        <h5>
-          {{ project.name }}
-          <span v-if="project.video">
-            <a :href="project.video" target="_blank" alt="Video" title="Video" class="text-decoration-none text-reset">
-              <span class="fs-6"> - (voir la démo) </span>
+      <div>
+        <div class="d-flex align-items-center gap-1 mb-3">
+          <h5 class="m-0">
+            {{ project.name }}
+          </h5>
+            <a v-if="project.video" :href="project.video" target="_blank" alt="Video" title="Video" class="text-decoration-none text-reset">
+              <span class="">- (voir la démo)</span>
             </a>
-          </span>
-        </h5>
+        </div>
         <p>{{ project.description }}</p>
       </div>
       <div class="d-flex align-items-center justify-content-between">
@@ -47,4 +47,9 @@ export default {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   }
 
+  .demo {
+    padding: 6px;
+    font-size: 12px;
+    transition: all 0.3s;
+  }
 </style>
