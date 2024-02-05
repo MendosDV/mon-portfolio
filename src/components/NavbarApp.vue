@@ -43,6 +43,10 @@ export default {
 </script>
 
 <style>
+  .offcanvas-backdrop {
+    opacity: 0 !important;
+  }
+
   .logo {
     letter-spacing: 2px;
     transition: all 0.3s;
