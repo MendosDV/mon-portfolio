@@ -1,7 +1,7 @@
 <template>
-  <div class="d-md-flex gap-5 mb-md-5 mx-md-5 align-items-center align-items-stretch border">
-    <div class="col-md-5 mb-4 mb-md-0">
-      <img :src="project.image" :alt="project.name" class="img-fluid rounded">
+  <div class="d-md-flex gap-5 mb-md-5 mx-md-5 align-items-center align-items-stretch">
+    <div class="col-md-6 mb-4 mb-md-0 d-flex align-items-center justify-content-center">
+      <ModalImage :project="project" />
     </div>
     <div class="px-md-4 col-md-6 d-flex flex-column justify-content-between">
       <div class="">
@@ -30,8 +30,11 @@
 </template>
 
 <script>
+import ModalImage from './ModalImage.vue'
+
 export default {
   name: 'ProjectCard',
+  components: { ModalImage },
   props: {
     project: Object
   }
@@ -39,15 +42,4 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@media screen and (max-width: 768px) {
-  p {
-    font-size: 12px;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  p {
-    font-size: 14px;
-  }
-}
 </style>
